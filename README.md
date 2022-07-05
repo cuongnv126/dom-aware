@@ -5,7 +5,7 @@ Easier aware dom depend on chain conditions, then execute target task.
 
 ## Usage:
 For example: you want to run init lightbox, but your data is client rendering
-and you don't sure when you can call `init`.
+and you aren't sure when should you can call `init`.
 
 Just do like this:
 ```javascript
@@ -17,12 +17,12 @@ new DomAwareBuilder()
 ```
 
 #### Explain:
-`DomAwareBuilder` is an object that will keep on your condition as a chains
-then it will try to execute one by one until your condition ready, then the 
+`DomAwareBuilder` is an object that will keep all your conditions as a chain
+then it will try to execute one by one until your all conditions are ready, then the 
 task will be executed.
 
 That's mean, flow will be:
-- Document ready
+- Document ready.
 - Document found element with id is `content-box`.
 - Then `this.lightbox.init()` will be called.
 
