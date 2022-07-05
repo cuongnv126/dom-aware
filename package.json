@@ -1,6 +1,6 @@
 {
   "name": "dom-aware",
-  "version": "0.0.17",
+  "version": "0.0.27",
   "description": "Easier aware dom depend on chain conditions, then execute target task.",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cuongnv126/dom-aware"
-  },
-  "dependencies": {
-    "dom-aware": "^0.0.15"
   }
 }

@@ -37,6 +37,4 @@ class DomAware {
     }
 }
 
-module.exports = {
-    DomAware
-}
+export default DomAware;
