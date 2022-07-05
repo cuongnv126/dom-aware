@@ -32,12 +32,12 @@ class DomAwareBuilder {
     }
 
     run() {
-        const doCondition = this.conditions.shift();
         if (this.conditions.length == 0) {
             this.task();
             return;
         }
 
+        const doCondition = this.conditions.shift();
         const domAware = new DomAware(doCondition, () => {
             const builder = new DomAwareBuilder();
             builder.on(this.conditions).then(this.task);

@@ -1,6 +1,6 @@
 {
   "name": "dom-aware",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Easier aware dom depend on chain conditions, then execute target task.",
   "main": "index.js",
   "scripts": {
