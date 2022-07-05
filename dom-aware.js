@@ -1,4 +1,4 @@
-export class DomAware {
+class DomAware {
     DELAY = 1000 / 60; // 60fps
 
     start = 0;
@@ -37,7 +37,7 @@ export class DomAware {
     }
 }
 
-export class DomAwareBuilder {
+class DomAwareBuilder {
     conditions = [];
     task = null;
 
@@ -82,4 +82,9 @@ export class DomAwareBuilder {
         });
         domAware.run();
     }
+}
+
+module.exports = {
+    DomAware,
+    DomAwareBuilder
 }
