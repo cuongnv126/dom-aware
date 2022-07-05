@@ -1,0 +1,20 @@
+{
+  "name": "dom-aware",
+  "version": "0.0.2",
+  "description": "Easier aware dom depend on chain conditions, then execute target task.",
+  "main": "dom-aware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dom",
+    "dom-aware",
+    "chain",
+    "task",
+    "dom",
+    "observer",
+    "chain"
+  ],
+  "author": "cuongnv126",
+  "license": "ISC"
+}
