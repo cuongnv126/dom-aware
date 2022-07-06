@@ -1,5 +1,4 @@
-const { DomAware } = require("./dist/DomAware.js")
-const { DomAwareBuilder } = require("./dist/DomAwareBuilder.js")
+const { DomAware, DomAwareBuilder } = require("./dist/DomAware.js")
 
 module.exports = {
     DomAware,

@@ -1,4 +1,3 @@
-import DomAware from "./dist/DomAware.esm";
-import DomAwareBuilder from "./dist/DomAwareBuilder.esm";
+import { DomAware, DomAwareBuilder } from "./dist/DomAware.esm";
 
 export { DomAware, DomAwareBuilder }

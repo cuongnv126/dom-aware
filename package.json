@@ -1,15 +1,13 @@
 {
   "name": "dom-aware",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "description": "Easier aware dom depend on chain conditions, then execute target task.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "minSrc1": "uglifyjs ./src/DomAware.js -c -m -o ./dist/DomAware.js",
-    "minSrc2": "uglifyjs ./src/DomAwareBuilder.js -c -m -o ./dist/DomAwareBuilder.js",
-    "minSrc3": "uglifyjs ./src/DomAware.esm.js -c -m -o ./dist/DomAware.esm.js",
-    "minSrc4": "uglifyjs ./src/DomAwareBuilder.esm.js -c -m -o ./dist/DomAwareBuilder.esm.js",
-    "minSrc": "npm run minSrc1 && npm run minSrc2 && npm run minSrc3 && npm run minSrc4",
+    "minSrc2": "uglifyjs ./src/DomAware.esm.js -c -m -o ./dist/DomAware.esm.js",
+    "minSrc": "npm run minSrc1 && npm run minSrc2",
     "minEsm": "uglifyjs dom-aware.esm.js -c -m -o dom-aware.esm.min.js",
     "minCjs": "uglifyjs dom-aware.cjs.js -c -m -o dom-aware.cjs.min.js",
     "min": "npm run minSrc && npm run minEsm && npm run minCjs"
