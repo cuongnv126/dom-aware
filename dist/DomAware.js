@@ -1,0 +1,1 @@
+class DomAware{DELAY=1e3/60;start=0;intervalId=null;constructor(t,i){this.condition=t,this.task=i}stopDelayRun(){this.intervalId||clearTimeout(this.intervalId)}delayRun(){this.intervalId=setTimeout(()=>{this.run()},this.DELAY)}run(){this.stopDelayRun(),this.condition()?this.actualRun():this.delayRun()}actualRun(){this.task()}}module.exports={DomAware:DomAware};
